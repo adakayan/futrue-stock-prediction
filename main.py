@@ -14,7 +14,7 @@ TODAY = date.today().strftime("%Y-%m-%d")
 st.title('Adak Future Stock')
 
 stocks = symbol.nsekey
-selected_stock = st.selectbox('Select dataset for prediction', stocks)
+selected_stock = st.selectbox('Select NSE symbol of company for prediction', stocks)
 
 n_years = st.slider('Years of prediction:', 1, 4)
 period = n_years * 365
