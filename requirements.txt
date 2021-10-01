@@ -1,4 +1,6 @@
 streamlit 
+pystan
+ephem
 fbprophet
 yfinance
 plotly
