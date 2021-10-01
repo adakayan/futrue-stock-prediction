@@ -1,6 +1,6 @@
 pip==21.2.4
 streamlit 
-pystan==3.2.0
-fbprophet==0.7.1
+pystan==2.19.0.0
+fbprophet==0.6
 yfinance
 plotly
