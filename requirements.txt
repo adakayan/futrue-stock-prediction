@@ -1,4 +1,5 @@
 streamlit 
+httpstan=4.5
 pystan
 ephem
 fbprophet
