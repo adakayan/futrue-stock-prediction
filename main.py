@@ -1,17 +1,20 @@
 # pip install streamlit fbprophet yfinance plotly
 import streamlit as st
 from datetime import date
-
+from PIL import Image
 import yfinance as yf
 from fbprophet import Prophet
 from fbprophet.plot import plot_plotly
 from plotly import graph_objs as go
 import symbol
 
+image = Image.open('logo.png')
+st.image(image, caption='')
+# st.title('Adak Future Stock')
+st.subheader('-------------------------------------------------------------------------------')
+
 START = "2010-01-01"
 TODAY = date.today().strftime("%Y-%m-%d")
-
-st.title('Adak Future Stock')
 
 stocks = symbol.nsekey
 selected_stock = st.selectbox('Select NSE symbol of company for prediction', stocks)
