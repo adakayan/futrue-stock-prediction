@@ -1,3 +1,4 @@
+localpip
 Cython==0.29.24
 numpy==1.21.2
 httpstan==4.4.2
